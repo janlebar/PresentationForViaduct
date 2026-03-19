@@ -1,0 +1,315 @@
+/* Custom styling for reveal.js presentation */
+
+.reveal .slides section {
+    text-align: left;
+    color: #ecf0f1;
+    max-height: 100vh;
+    overflow: hidden;
+    padding: 0.1em 2em 0.3em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Override reveal.js default centering */
+.reveal .slides section > * {
+    width: 100%;
+}
+
+.reveal {
+    color: #ecf0f1;
+    font-size: 1.05em;
+}
+
+.reveal h1 {
+    color: #ecf0f1;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+}
+
+.reveal h2 {
+    color: #ecf0f1;
+    font-weight: 600;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.15em;
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
+    font-size: 1.8em;
+}
+
+.reveal h3 {
+    color: #2980b9;
+    font-weight: 600;
+}
+
+.reveal p {
+    color: #ecf0f1;
+}
+
+.reveal .title-slide h1 {
+    font-size: 3.5em;
+    color: #ecf0f1;
+    border: none;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+}
+
+.reveal .title-slide h2 {
+    font-size: 2em;
+    color: #bdc3c7;
+    border: none;
+    font-weight: 300;
+    margin-top: 0.5em;
+}
+
+.reveal .title-slide p {
+    font-size: 1.3em;
+    color: #95a5a6;
+    margin-top: 2em;
+    font-style: italic;
+}
+
+.reveal ul {
+    margin-left: 1.5em;
+    line-height: 1.5;
+    color: #ecf0f1;
+    font-size: 0.95em;
+}
+
+.reveal li {
+    margin-bottom: 0.5em;
+    font-size: 0.95em;
+    color: #ecf0f1;
+}
+
+.reveal strong {
+    color: #e74c3c;
+    font-weight: 700;
+}
+
+.reveal .highlight-box {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    padding: 0.8em;
+    border-radius: 10px;
+    margin: 0.3em 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-size: 0.9em;
+}
+
+.reveal .highlight-box strong {
+    color: white;
+}
+
+.reveal .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.8em;
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+}
+
+.reveal .feature-card {
+    background: #34495e;
+    color: #ecf0f1;
+    padding: 0.9em;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-height: auto;
+    font-size: 0.95em;
+}
+
+.reveal .feature-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    color: #2980b9;
+    font-size: 1em;
+}
+
+.reveal .feature-card {
+    background: #34495e;
+}
+
+.reveal .feature-card p,
+.reveal .feature-card ul,
+.reveal .feature-card li {
+    color: #ecf0f1;
+    font-size: 0.95em;
+}
+
+.reveal .icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+
+.reveal .icon svg {
+    width: 100%;
+    height: 100%;
+    fill: #3498db;
+}
+
+.reveal .stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.8em 0;
+    flex-wrap: wrap;
+}
+
+.reveal .stat-item {
+    text-align: center;
+    padding: 1em;
+    min-width: 120px;
+}
+
+.reveal .stat-number {
+    font-size: 3em;
+    font-weight: bold;
+    color: #3498db;
+    display: block;
+    line-height: 1;
+}
+
+.reveal .stat-label {
+    color: #ecf0f1;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+.reveal .arrow {
+    font-size: 2em;
+    color: #3498db;
+    margin: 0 0.5em;
+}
+
+.reveal blockquote {
+    border-left: 4px solid #3498db;
+    padding-left: 1em;
+    font-style: italic;
+    color: #ecf0f1;
+    margin: 1em 0;
+}
+
+.reveal .centered {
+    text-align: center;
+}
+
+.reveal .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 0.95em;
+}
+
+.reveal .two-column ul {
+    margin-top: 0;
+}
+
+.reveal .benefit-list {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.reveal .benefit-list li {
+    background: #34495e;
+    color: #ecf0f1;
+    padding: 0.5em;
+    margin-bottom: 0.3em;
+    border-radius: 5px;
+    border-left: 3px solid #27ae60;
+    font-size: 0.85em;
+}
+
+.reveal .benefit-list li strong {
+    color: #ffffff;
+}
+
+.reveal .footer-note {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.7em;
+    color: #95a5a6;
+}
+
+/* Ensure content fits on slide */
+.reveal .slides section > * {
+    max-width: 100%;
+}
+
+.reveal .slides section > div {
+    margin-bottom: 0.3em;
+}
+
+.reveal p {
+    font-size: 0.95em;
+    margin-bottom: 0.4em;
+}
+
+.reveal h3 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 1.1em;
+}
+
+/* Simple icon styles - using CSS shapes */
+.reveal .icon-blue,
+.reveal .icon-green,
+.reveal .icon-red {
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    position: relative;
+}
+
+.reveal .icon-blue::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #3498db;
+    border-radius: 2px;
+}
+
+.reveal .icon-green::before {
+    content: "✓";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #27ae60;
+    font-size: 1.2em;
+    line-height: 0.7;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reveal .title-slide .icon-blue::before {
+    background: #ecf0f1;
+}
+
+.reveal .icon-red::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #e74c3c;
+    border-radius: 50%;
+}
+
+/* Prevent content from going off page */
+.reveal .slides section {
+    max-height: 95vh;
+    overflow-y: auto;
+    padding-bottom: 1em;
+}
+
+
