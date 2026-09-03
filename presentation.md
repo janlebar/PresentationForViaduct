@@ -1,10 +1,3 @@
----
-title: Jan Lebar — Web Developer
-theme: league
-transition: slide
-css: presentation.css
----
-
 <!-- .slide: class="title-slide centered" -->
 # <span class="icon-blue"></span> Jan Lebar
 ## Web Developer
@@ -144,19 +137,75 @@ A portfolio website built with <b>Vue.js</b> and <b>Nuxt</b>.
 
 ---
 
-## <span class="icon-blue"></span> Let's Talk
+## <span class="icon-blue"></span> Behandier — The Pitch
 
 <div class="highlight-box">
-I would welcome the opportunity to discuss my experience and projects in more detail.
+A full marketplace platform connecting property owners with trusted contractors — search, book, chat, pay.
 </div>
 
-- <span class="icon-blue"></span> <b>Phone:</b> +386 31 581 040
-- <span class="icon-blue"></span> <b>Email:</b> janstefanlebar@gmail.com
-- <span class="icon-blue"></span> <b>Portfolio & CV</b> available on request
+- <span class="icon-blue"></span> Think <b>"Airbnb for handymen"</b>
+- <span class="icon-blue"></span> Users find pros on an interactive map
+- <span class="icon-blue"></span> Contractors manage availability and win jobs
+- <span class="icon-green"></span> We monetize the lead flow
 
-<div style="margin-top: 1em; text-align: center; color: #95a5a6; font-style: italic;">
-Thank you — Jan Lebar, Web Developer
+<div style="margin-top: 0.6em;">
+<a href="https://behandier.com" style="color: #3498db;">behandier.com</a>
 </div>
+
+---
+
+## <span class="icon-blue"></span> Behandier — What It Does Today
+
+- <span class="icon-blue"></span> <b>Two-sided marketplace:</b> homeowners post needs; contractors build profiles with photos, services, availability & service areas
+- <span class="icon-blue"></span> <b>Map-based search</b> (Leaflet) with city/geolocation detection — find pros near you
+- <span class="icon-blue"></span> <b>Real-time chat</b> — conversations, unread counts, file/image sharing, contact search
+- <span class="icon-blue"></span> <b>Scheduling & projects</b> — timeslot approvals, appointments, project tracking, collaboration spaces
+- <span class="icon-blue"></span> <b>Monetization built-in</b> — Stripe checkout for lead subscriptions and premium contractor placements
+- <span class="icon-blue"></span> <b>Trust layer</b> — roles, favorites, reviews data, admin panel, content pages (blog, FAQ, price guide, how-it-works, terms)
+- <span class="icon-green"></span> <b>Multi-language</b> out of the box (next-intl) — ready for new markets
+
+---
+
+## <span class="icon-blue"></span> Behandier — One Platform, Two Clients
+
+<div class="two-column">
+
+<div class="feature-card">
+<h3><span class="icon-blue"></span> Web App</h3>
+Full Next.js experience
+</div>
+
+<div class="feature-card">
+<h3><span class="icon-blue"></span> Mobile API</h3>
+Complete <b>/api/mobile/*</b> surface — auth (register/login/refresh/social tokens), profiles, projects, collaborations & messaging — already powering the Expo mobile app
+</div>
+
+</div>
+
+<div class="highlight-box">
+One codebase, one auth system, both worlds.
+</div>
+
+---
+
+## <span class="icon-blue"></span> Behandier — Engineering Highlights
+
+- <span class="icon-blue"></span> <b>Next.js 15 App Router + React 19</b> — Server Components, streaming, modern stack
+- <span class="icon-blue"></span> <b>TypeScript end-to-end</b>, Zod-validated APIs, Prisma + PostgreSQL
+- <span class="icon-blue"></span> <b>Better Auth</b> with JWT access/refresh rotation — web and mobile sessions
+- <span class="icon-blue"></span> <b>Production-grade delivery:</b> Cloudflare edge → Traefik load balancer → horizontally scalable Node instances → Postgres
+- <span class="icon-blue"></span> <b>Stripe webhooks</b> + idempotent sync-after-success flows — payments done properly
+- <span class="icon-green"></span> OpenTelemetry hooks ready for observability, Jest test suite, ESLint/oxfmt enforced
+
+---
+
+## <span class="icon-blue"></span> Behandier — Why It's Positioned to Win
+
+- ✅ Monetization is already wired (leads = revenue from day one)
+- ✅ Web + mobile from a single backend — no duplicated effort
+- ✅ Geo-aware, i18n-ready → scale to new cities/countries is config, not code
+- ✅ Infra designed for horizontal scaling (Traefik LB, stateless Node instances)
+- 🚀 Next up: observability dashboards, CI/CD automation, multi-region
 
 ---
 
@@ -181,4 +230,20 @@ Thank you — Jan Lebar, Web Developer
 | Health check | GET /api/mobile/health — no auth/DB, returns {ok: true} (good Traefik LB healthCheck target) |
 | Testing/tooling | Jest, ESLint, oxfmt |
 
+</div>
+
+---
+
+## <span class="icon-blue"></span> Let's Talk
+
+<div class="highlight-box">
+I would welcome the opportunity to discuss my experience and projects in more detail.
+</div>
+
+- <span class="icon-blue"></span> <b>Phone:</b> +386 31 581 040
+- <span class="icon-blue"></span> <b>Email:</b> janstefanlebar@gmail.com
+- <span class="icon-blue"></span> <b>Portfolio & CV</b> available on request
+
+<div style="margin-top: 1em; text-align: center; color: #95a5a6; font-style: italic;">
+Thank you — Jan Lebar, Web Developer
 </div>
