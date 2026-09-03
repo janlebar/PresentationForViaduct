@@ -104,6 +104,10 @@ A web platform connecting <b>service providers and customers</b> through a user-
 - <span class="icon-blue"></span> <b>Platform:</b> Fly.io
 - <span class="icon-green"></span> Includes vector-based functionality for Slovenian-language content
 
+<div style="margin-top: 0.6em;">
+<a href="https://handyman.fly.dev" style="color: #3498db;">handyman.fly.dev</a>
+</div>
+
 ---
 
 ## <span class="icon-blue"></span> Project — Side-Effect
@@ -118,12 +122,20 @@ A React/Next.js application for visualizing information about <b>medication side
 - <span class="icon-blue"></span> <b>Platform:</b> AWS Amplify
 - <span class="icon-green"></span> Python scripts collect and process data — works with local SQLite and external websites
 
+<div style="margin-top: 0.6em;">
+<a href="https://main.dr8zddyqlf34o.amplifyapp.com/" style="color: #3498db;">main.dr8zddyqlf34o.amplifyapp.com</a>
+</div>
+
 ---
 
 ## <span class="icon-blue"></span> Project — Portfolio Website
 
 <div class="highlight-box">
 A portfolio website built with <b>Vue.js</b> and <b>Nuxt</b>.
+</div>
+
+<div style="margin-top: 0.6em;">
+<a href="https://different-janlebar.vercel.app/" style="color: #3498db;">different-janlebar.vercel.app</a>
 </div>
 
 ---
