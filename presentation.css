@@ -312,4 +312,41 @@
     padding-bottom: 1em;
 }
 
+/* Specification table */
+.reveal .spec-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.52em;
+    color: #ecf0f1;
+    margin-top: 0.2em;
+}
+
+.reveal .spec-table th {
+    background: #2980b9;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+    padding: 0.4em 0.6em;
+    border: 1px solid #2c3e50;
+    white-space: nowrap;
+}
+
+.reveal .spec-table td {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 0.35em 0.6em;
+    border: 1px solid #34495e;
+    vertical-align: top;
+}
+
+.reveal .spec-table tr:nth-child(even) td {
+    background: #27374a;
+}
+
+.reveal .spec-table td:first-child {
+    color: #3498db;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
 

@@ -159,29 +159,25 @@ The platform could evolve into a <b>trusted Slovenian rental network</b>
 
 ---
 
-## <span class="icon-blue"></span> Expected Benefits
+## <span class="icon-blue"></span> Behandier Specification
 
-<div class="stats">
+<div class="spec-table">
 
-<div class="stat-item">
-<span class="stat-number" style="color: #27ae60;">↑</span>
-<span class="stat-label">Increased Trust</span>
-</div>
+| Layer | Technology |
+| --- | --- |
+| Edge / CDN | Cloudflare — proxied A records, origin cert for Full (strict) |
+| Load balancing / proxy | Traefik v3.7.6 (host binary, Go 1.25) |
+| App server | Next.js 15 (App Router) + React 19, TypeScript, Node.js 20, next start on :3000, systemd unit nextjs-app |
+| Database | PostgreSQL 18-alpine (Docker, docker-compose.yml, port 5432, volume pgdata) |
+| ORM | Prisma 6 |
+| Auth | Better Auth (auth.ts, middleware.ts) + JWT, OAuth (Google/Facebook), Expo plugin for mobile |
+| Payments | Stripe (checkout + webhooks at app/api/stripe/*) |
+| Email | Mailgun (lib/mail.ts) |
+| Storage | S3 / Wasabi / Vercel Blob (STORAGE_PROVIDER) |
+| i18n | next-intl (i18n/, messages/) |
+| UI | Tailwind 4, Radix UI, Leaflet maps, jotai |
+| Mobile | Expo integration (Expo_integration/), hits /api/mobile/* |
+| Health check | GET /api/mobile/health — no auth/DB, returns {ok: true} (good Traefik LB healthCheck target) |
+| Testing/tooling | Jest, ESLint, oxfmt |
 
-<div class="stat-item">
-<span class="stat-number" style="color: #e74c3c;">↓</span>
-<span class="stat-label">Reduced Fraud</span>
-</div>
-
-<div class="stat-item">
-<span class="stat-number" style="color: #3498db;">✓</span>
-<span class="stat-label">Better Decisions</span>
-</div>
-
-</div>
-
-<div style="margin-top: 0.3em; color: #ecf0f1; font-size: 0.9em;">
-- <span class="icon-blue"></span> Reduced <b>fraud and bad rental experiences</b>
-- <span class="icon-blue"></span> Better <b>decision-making</b> for both landlords and renters
-- <span class="icon-blue"></span> Expansion into a <b>full rental platform</b>
 </div>
