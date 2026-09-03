@@ -1,160 +1,161 @@
 ---
-title: Expanding the Real Estate App
+title: Jan Lebar — Web Developer
 theme: league
 transition: slide
 css: presentation.css
 ---
 
 <!-- .slide: class="title-slide centered" -->
-# <span class="icon-blue"></span> Expanding the Real Estate App
-## From Land Registry Search to include Rental Platform
+# <span class="icon-blue"></span> Jan Lebar
+## Web Developer
 
 <div style="margin-top: 2em; font-size: 1.3em; color: #bdc3c7; font-style: italic;">
-Building a Trusted Rental Ecosystem
+Graphic Designer & Developer — Application for Viaduct
 </div>
 
 
 ---
-## <span class="icon-blue"></span> Why expand?
 
-1. To increase platform traffic which is necessary for real estate agencies to advertise.
-2. Real problem: Property owners do not wish to rent out because they cannot see who is applying to rent and have issues with previous rental agreements.
-
----
-
-## <span class="icon-blue"></span> Proposed Platform Expansion
+## <span class="icon-blue"></span> About Me
 
 <div class="highlight-box">
-<strong>Goal:</strong> Extend from a <b>property lookup tool</b> into a <b>trusted rental ecosystem</b>
+<strong>Graphic designer and developer</strong> with a passion for modern technologies, web application development, and optimization.
 </div>
 
-### Key Features:
+- <span class="icon-blue"></span> Experience in both <b>front-end and back-end</b> development
+- <span class="icon-blue"></span> Working with Python, Flask, FastAPI, Next.js, React, Vue.js and other modern web technologies
+- <span class="icon-blue"></span> A combination of <b>technical and design skills</b> for a valuable contribution to your team
 
-<div style="color: #ecf0f1; margin-top: 0.2em; font-size: 0.9em;">
-- <span class="icon-blue"></span> Enable <b>both renters and landlords</b> to create accounts
-- <span class="icon-blue"></span> Allow them to <b>interact, rate experiences, and build trust</b>
-- <span class="icon-blue"></span> Create transparency in the rental market
-</div>
+### Education
+- <span class="icon-green"></span> Faculty of Natural Sciences
+- <span class="icon-green"></span> Master's degree — Liverpool, United Kingdom
 
 ---
 
-## <span class="icon-blue"></span> User Roles
-
-<div class="two-column">
-
-<div class="feature-card">
-<h3><span class="icon-blue"></span> Renters</h3>
-- People looking to rent apartments or houses
-- Can create profiles and verify identity
-- Can review rental experiences
-</div>
-
-<div class="feature-card">
-<h3><span class="icon-blue"></span> Landlords (Rentees)</h3>
-- Property owners offering rental units
-- Can manage property listings
-- Can review renters after agreements
-</div>
-
-</div>
-
----
-
-## <span class="icon-blue"></span> Authentication and Verification
+## <span class="icon-blue"></span> Why Viaduct
 
 <div class="highlight-box">
-<strong>Goal:</strong> Improve trust and reduce fraud
+Viaduct is growing rapidly in the <b>connected vehicle space</b> — at the forefront of connected cars and AI.
 </div>
 
-### Facebook Integration
-
-<div style="color: #ecf0f1; margin-top: 0.2em; font-size: 0.9em;">
-- <span class="icon-green"></span> Implement <b>Facebook login authentication</b>
-- <span class="icon-green"></span> Verify user identity
-- <span class="icon-green"></span> Import profile photos for identification
-- <span class="icon-blue"></span> Helps reduce <b>fake profiles and scams</b>
-</div>
+- <span class="icon-blue"></span> World's leading end-to-end <b>machine learning and data analytics</b> platform for connected vehicle data
+- <span class="icon-blue"></span> Helping major vehicle manufacturers make smarter decisions for vehicles and fleets
+- <span class="icon-blue"></span> Recently acquired by <b>Sumitomo Rubber Industries (SRI)</b>
+- <span class="icon-blue"></span> Core stack: AWS, Go, Python, SQL · Amazon RDS, Postgres, ClickHouse · REST APIs · HTML, JavaScript, TypeScript, CSS
 
 ---
 
-## <span class="icon-blue">★</span> Reputation System
-
-<div class="centered" style="margin: 0.3em 0;">
-<h2 style="border: none; color: #3498db; font-size: 1.6em;">Two-Way Reputation System</h2>
-<p style="font-size: 1em; color: #ecf0f1;">Building transparency through mutual feedback</p>
-</div>
-
----
-
-## <span class="icon-blue"></span> Landlord → Renter Feedback
+## <span class="icon-blue"></span> Key Skills — Web & Frameworks
 
 <div class="feature-grid">
 
 <div class="feature-card">
-<h3><span class="icon-blue"></span> Payment Reliability</h3>
-Track payment history and consistency
+<h3><span class="icon-blue"></span> Web Technologies</h3>
+HTML, CSS, JavaScript
 </div>
 
 <div class="feature-card">
-<h3><span class="icon-blue"></span> Property Care</h3>
-Monitor how renters maintain properties
-</div>
-
-<div class="feature-card">
-<h3><span class="icon-blue"></span> Communication</h3>
-Assess responsiveness and clarity
+<h3><span class="icon-blue"></span> Programming & Frameworks</h3>
+Python, Flask, FastAPI, React, Next.js, Angular, Vue.js, Nuxt
 </div>
 
 </div>
 
 ---
 
-## <span class="icon-blue"></span> Renter → Landlord Feedback
+## <span class="icon-blue"></span> Key Skills — Backend & Data
 
 <div class="feature-grid">
 
 <div class="feature-card">
-<h3><span class="icon-blue"></span> Property Condition</h3>
-Rate the quality and maintenance of properties
+<h3><span class="icon-blue"></span> Backend & APIs</h3>
+Web application and API development using Python, Flask, and FastAPI
 </div>
 
 <div class="feature-card">
-<h3><span class="icon-blue"></span> Contract Fairness</h3>
-Evaluate the fairness of rental agreements
+<h3><span class="icon-blue"></span> Databases</h3>
+SQL, PostgreSQL, SQLite, and SQLAlchemy
 </div>
 
 </div>
 
 ---
 
-## <span class="icon-blue"></span> Reputation System Benefits
+## <span class="icon-blue"></span> Key Skills — SEO & AI
 
-<div class="benefit-list">
+<div class="feature-grid">
 
-- <span class="icon-green"></span> Creates <b>transparency</b> in the rental market
-- <span class="icon-green"></span> Encourages <b>responsible behavior</b> from both sides
-- <span class="icon-green"></span> Helps users make <b>safer rental decisions</b>
-- <span class="icon-green"></span> Builds long-term <b>trust and credibility</b>
+<div class="feature-card">
+<h3><span class="icon-blue"></span> SEO & Optimization</h3>
+Basic and technical SEO, web application optimization, and vector databases for Slovenian-language content
+</div>
+
+<div class="feature-card">
+<h3><span class="icon-blue"></span> AI & Data</h3>
+AI integration, data processing, and web scraping using Python and Cheerio
+</div>
 
 </div>
 
 ---
 
-## <span class="icon-blue"></span> Long-Term Vision
+## <span class="icon-blue"></span> Project — Handyman Platform
+
+A web platform connecting <b>service providers and customers</b> through a user-friendly application.
+
+- <span class="icon-blue"></span> <b>Backend:</b> Python, Flask
+- <span class="icon-blue"></span> <b>ORM:</b> SQLAlchemy
+- <span class="icon-blue"></span> <b>Database:</b> PostgreSQL
+- <span class="icon-blue"></span> <b>CSS:</b> Tailwind CSS
+- <span class="icon-blue"></span> <b>Security:</b> UUID4 and ItsDangerous
+- <span class="icon-blue"></span> <b>Platform:</b> Fly.io
+- <span class="icon-green"></span> Includes vector-based functionality for Slovenian-language content
+
+---
+
+## <span class="icon-blue"></span> Project — Side-Effect
+
+A React/Next.js application for visualizing information about <b>medication side effects</b>.
+
+- <span class="icon-blue"></span> <b>Frontend:</b> React, Next.js, Tailwind CSS
+- <span class="icon-blue"></span> <b>Data Visualization:</b> Chart.js
+- <span class="icon-blue"></span> <b>Web Scraping:</b> Cheerio and Python
+- <span class="icon-blue"></span> <b>Database:</b> SQLite
+- <span class="icon-blue"></span> <b>AI:</b> Gemini 2.0 Flash
+- <span class="icon-blue"></span> <b>Platform:</b> AWS Amplify
+- <span class="icon-green"></span> Python scripts collect and process data — works with local SQLite and external websites
+
+---
+
+## <span class="icon-blue"></span> Project — Portfolio Website
 
 <div class="highlight-box">
-The platform could evolve into a <b>trusted Slovenian rental network</b>
+A portfolio website built with <b>Vue.js</b> and <b>Nuxt</b>.
 </div>
 
-### Users can:
+---
 
-<div class="two-column" style="margin-top: 0.2em; font-size: 0.9em;">
+## <span class="icon-blue"></span> What I Bring
 
-- <span class="icon-blue"></span> Search properties
-- <span class="icon-green"></span> Verify landlords and renters
-- <span class="icon-blue"></span> Review past experiences
-- <span class="icon-blue"></span> Build trustworthy rental histories
+- <span class="icon-blue"></span> A strong background in <b>graphic design</b>, problem-solving, and communication
+- <span class="icon-blue"></span> Development approached through <b>user experience</b> and <b>visual design</b>
+- <span class="icon-blue"></span> Continuously expanding knowledge of modern web development
+- <span class="icon-green"></span> Python, FastAPI, APIs, databases, AI integration, and web application optimization
 
+---
+
+## <span class="icon-blue"></span> Let's Talk
+
+<div class="highlight-box">
+I would welcome the opportunity to discuss my experience and projects in more detail.
+</div>
+
+- <span class="icon-blue"></span> <b>Phone:</b> +386 31 581 040
+- <span class="icon-blue"></span> <b>Email:</b> janstefanlebar@gmail.com
+- <span class="icon-blue"></span> <b>Portfolio & CV</b> available on request
+
+<div style="margin-top: 1em; text-align: center; color: #95a5a6; font-style: italic;">
+Thank you — Jan Lebar, Web Developer
 </div>
 
 ---
